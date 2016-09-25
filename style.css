@@ -1,5 +1,5 @@
 body {
-	background-image: http://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/spaghetti-smoky-tomato-seafood-sauce.jpg;
+	background-image: url(" http://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/spaghetti-smoky-tomato-seafood-sauce.jpg");
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-size:cover;
