@@ -1,3 +1,13 @@
 body {
-  max-width: 600px;
-  }
+	background-image: http://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/spaghetti-smoky-tomato-seafood-sauce.jpg;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+h1 {
+	font-family: Helvetica Neue, Arial, sans-serif;
+	font-size: 36px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.65);
+}
