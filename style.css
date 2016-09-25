@@ -6,7 +6,8 @@ body {
 }
 
 h1 {
-	font-family: Helvetica Neue, Arial, sans-serif;
+	font-family: Futura Medium, Arial, sans-serif;
+	font-style:normal;
 	font-size: 36px;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.65);
