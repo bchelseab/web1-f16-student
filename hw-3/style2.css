@@ -14,15 +14,14 @@ nav {
 	margin-right:auto;
 	z-index:1; 
 	width:100%;
-	xheight:120px;
+/*	xheight:120px;*/
 	background-color:white;
 	border-bottom:solid 4px #176A7D;
-	
 }
 
 .box {
 	margin-top:120px;
-	position:absolute;
+	position:absolute;	
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
@@ -41,13 +40,13 @@ h1 {
 	color:#176A7D;
 }
 
-.header a, a:visited, a:active {
+.header a, .header a:visited, .header a:active {
 	text-decoration:none;
 	color:#176A7D;
 	font-weight:normal;
 }
 
-. header a:hover, a:focus {
+.header a:hover, .header a:focus {
 	text-decoration:none;
 	color:#7A7A7A;
 }
@@ -165,7 +164,7 @@ p {
 	padding:20px;
 }
 
-#about a:link,a:visited, a:active{
+#about a:link, #about a:visited, #about a:active{
 	color:black;
 }
 
@@ -184,7 +183,7 @@ p {
 	margin-right:auto;
 }
 
-#credit a:link, a:visited, a:active {
+#credit a:link, #credit a:visited, #credit a:active {
 	color:#7A7A7A;
 }
 
@@ -200,7 +199,7 @@ footer {
 	margin:5px;
 }
 
-footer a:link, a:visited, a:active {
+footer a:link, footer a:visited, footer a:active {
 	color:#7A7A7A;
 }
 
