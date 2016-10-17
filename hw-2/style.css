@@ -1,0 +1,145 @@
+body {
+	background-image: url("contemporary_china.png");
+	background-attachment:fixed;
+	background-repeat:repeat;
+}
+
+header {
+	background-color: #fc5655;
+	text-align:center;
+	padding:10px 10px 3px 10px;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-bottom: 20px;
+	width:100%;
+}
+h1 {
+	font-family: 'Kumar One', sans-serif;
+	font-weight:normal;
+	font-size: 36px;
+	color: white;
+	text-shadow: 2px 2px #4C4C4C;
+	margin: 0px;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight:700;
+	font-style:italic;
+	color: white;
+	margin-bottom:10px;
+	margin-top:0px;
+}
+
+.box {
+	max-width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+	padding:20px;
+	background-color: white;
+	border-bottom:2px solid #fc5655;
+}
+
+table.pix {
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+td.pix {
+	width:33%;
+	border: none;
+}
+
+tr.pix {
+	border: none;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-style:italic;
+	font-size: 20px;
+	text-align:center;
+	color:#fc5655;
+	margin:0px;
+}
+
+table {
+	max-width: 500px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:2px solid #fc5655;
+	border-left:2px solid #fc5655;
+	border-right:2px solid #fc5655;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding:7px;
+	width: 33%;
+}
+
+th {
+	border: 2px solid #ffffff;
+	background-color:#fc5655;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	color:white;
+	font-size:14px;
+}
+td {
+	border-left: 2px solid #fc5655;
+	border-right: 2px solid #fc5655;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size:12px;
+	text-align:left;
+	vertical-align:text-top;
+}
+
+p {
+	max-width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-style:italic;
+	color:#4C4C4C;
+	font-size:16px;
+	text-align:justify;
+}
+
+h4 {
+	max-width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	color:#fc5655;
+	font-size:18px;
+	text-align:center;
+}
+
+ul {
+	max-width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	color:#4C4C4C;
+	font-size:12px;
+	line-height: 1.5;
+}
+
+footer {
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	color:#4C4C4C;
+	font-size:12px;
+}
