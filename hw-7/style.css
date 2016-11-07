@@ -1,0 +1,115 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font-family: 'Ubuntu', sans-serif;
+	color:black; 
+	background-image:url(landscape_4bw.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:#7E7E7E;
+    background-size: cover; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	
+
+	}
+h3 { 
+	font-family: 'Lato', sans-serif;
+	font-style:italic;
+	font-weight:700;
+	text-transform: uppercase;
+	letter-spacing:.1em;
+	background-color:#D6141F;
+	color:white;
+	font-size:24px;
+	text-align:center;
+	margin:0px;
+	}
+a:link { 
+	text-decoration: none; 
+	color: #D6141F;
+	}
+a:visited { 
+	text-decoration: none; 
+	color: #D6141F;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: none; 
+	color: white;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+
+header h1 { 
+	font-family: 'Lato', sans-serif;
+	font-style:italic;
+	font-weight:700;
+	text-transform: uppercase;
+	letter-spacing:.1em;
+	font-size:46px;
+	color:white;
+	text-shadow: 2px 3px #4C4C4C;
+	text-align:center;
+	margin-bottom:0px;
+	}
+header h2 { 
+	font-family: 'ubuntu', sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	letter-spacing:.1em;
+	color:#E7E7E7;
+	text-align:center;
+	margin-bottom:40px;
+	}
+.preamble {
+	max-width:600px;
+	align:right;
+	margin-left:auto;
+	margin-right:50px;
+	padding: 15px 40px 15px 40px;
+	background-color:rgba(255,255,255,0.53);
+}
+
+.main {
+	max-width:600px;
+	align:right;
+	margin-left:auto;
+	margin-right:50px;
+	padding: 15px 40px 15px 40px;
+	background-color:rgba(255,255,255,0.53);
+}
+
+.summary {
+	max-width:300px;
+	margin-left: 50px;
+	padding: 15px 40px 15px 40px;
+	position:absolute;
+	background-color:rgba(255,255,255,0.53);
+}
+
+.wrapper {
+	max-width:300px;
+	padding: 15px 40px 15px 40px;
+	margin-left: 50px;
+	position:absolute;
+	background-color:rgba(255,255,255,0.53);
+}
