@@ -27,8 +27,20 @@ h2 {
 
 img {
 	max-width:100%;
+	transition: all ease .5s;
 }
 
 img:hover {
 	opacity:.5;
+}
+
+a {
+	color:#E1344A;
+	text-decoration:none;
+	transition:all ease .3s;
+}
+
+a:hover {
+	color:black;
+	text-decoration:none;
 }
