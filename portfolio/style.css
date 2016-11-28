@@ -33,6 +33,9 @@ body {
 	.bubble {
 	width:50%;
 	padding-bottom:50%;
+	margin-top:-32%;
+	}
+	.bubble:hover {
 	margin-top:-30%;
 	}
 }
@@ -63,6 +66,9 @@ body {
 	.bubble {
 	width:40%;
 	padding-bottom:40%;
+	margin-top:-24%;
+	}
+	.bubble:hover {
 	margin-top:-22%;
 	}
 }
@@ -94,6 +100,9 @@ body {
 	padding-bottom:30%;
 	margin-top:-17%;
 	}
+	.bubble:hover {
+	margin-top:-15%;
+	}
 }
 
 
@@ -118,8 +127,14 @@ body {
 	transition:all ease 0.5s;
 }
 
-.bubble:hover {
-	background-color:black;
+
+span {position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
 }
 
 #contain {
