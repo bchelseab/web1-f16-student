@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body {
+	background-image:url(congruent_pentagon_copy.png);
+	background-repeat:repeat;
+	background-attachment:fixed;
+	margin:0px;
+}
+header {
+	width:60%;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+}
+
+.bubble {
+	border-radius:50%;
+	width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+	background-color:#fdbdcd;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:-17%;
+	position:absolute;
+}
+
+#name {
+	width:14%;
+	margin-left:23%;
+	margin-right:23%;
+	position:relative;
+	z-index:1;
+	top:3px;
+}
+
+#banner {
+	width:20%;
+	margin-left:20%;
+	margin-right:20%;
+	position:relative;
+}
+
+nav, li{
+	display:inline;
+	text-align:center;
+	position:relative;
+}
+
+nav, a nav, a:visited{
+	font-family: 'Dosis', sans-serif;
+	text-decoration:none;
+	color:black;
+}
+
+nav, a:hover{
+	font-family: 'Dosis', sans-serif;
+	text-decoration:none;
+	color:#fdbdcd;
+}
+
+.box {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.pic {
+	width:20%;
+	height:0;
+	padding-bottom:20%;
+	border-radius:50%;
+	background-color:#969898;
+	display:inline-block;
+	margin:2.2%;
+}
