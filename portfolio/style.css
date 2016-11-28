@@ -17,6 +17,23 @@ body {
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:10px;
+	}
+	header {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+.big {
+	width:80%;
+	padding-bottom:80%;
+	margin-top:-50%;
+	}
+	.bubble {
+	width:50%;
+	padding-bottom:50%;
+	margin-top:-30%;
 	}
 }
 @media (min-width: 768px) {
@@ -30,6 +47,23 @@ body {
 	width:85%;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:30px;
+	}
+	header {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+	.big {
+	width:70%;
+	padding-bottom:70%;
+	margin-top:-45%;
+	}
+	.bubble {
+	width:40%;
+	padding-bottom:40%;
+	margin-top:-22%;
 	}
 }
 @media (min-width: 1200px) {
@@ -43,32 +77,49 @@ body {
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:45px;
+	}
+	header {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	.big {
+	width:60%;
+	padding-bottom:60%;
+	margin-top:-39%;
+	}
+	.bubble {
+	width:30%;
+	padding-bottom:30%;
+	margin-top:-17%;
 	}
 }
 
-header {
-	width:60%;
+
+
+
+.big {
+	height:0;
 	background-color:white;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:0px;
+	border-radius:50%;
+	border: solid #fffec2;
+	position:absolute;
+	transition:all ease 0.5s;
 }
 
 .bubble {
 	border-radius:50%;
-	width: 30%;
     height: 0;
-    padding-bottom: 30%;
 	background-color:#fdbdcd;
 	margin-left:15%;
 	margin-right:15%;
-	margin-top:-17%;
 	position:absolute;
 	transition:all ease 0.5s;
 }
 
 .bubble:hover {
-	margin-top:-15%;
+	background-color:black;
 }
 
 #contain {
@@ -94,21 +145,45 @@ header {
 
 nav {
 	position:relative;
-	padding:0;
-}
-
-nav, li{
-	display:inline;
+	padding:0px;
+	top:0;
+	xwidth:100%;
+	margin-left:auto;
+	margin-right:auto;
 	text-align:center;
 }
 
-nav, a{
+nav ul{
+	padding:0px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav li{
+	display:inline;
+	text-align:center;
+	background-color:#fdb6c8;
+	border-radius:15%;
+	padding:5px;
+	margin-left:auto;
+	margin-right:auto;
+	transition:all ease 0.2s;
+}
+
+
+nav li:hover{
+	background-color:#FFD7DB;
+}
+
+nav a{
 	font-family: 'Dosis', sans-serif;
 	text-decoration:none;
 	color:black;
+	transition:all ease 0.1s;
 }
 
-nav, a:hover{
+nav a:hover{
 	font-family: 'Dosis', sans-serif;
 	text-decoration:none;
 	color:#fdbdcd;
