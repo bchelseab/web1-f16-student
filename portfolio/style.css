@@ -73,6 +73,7 @@ nav, a:hover{
 	background-color:#969898;
 	display:inline-block;
 	margin:2.2%;
+	transition: all ease .5s;
 }
 
 .pic:hover {
