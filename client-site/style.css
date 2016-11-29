@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+	background-image:url(union-city.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.box {
+	width:90%;
+	margin:0px 5% 0px 5%;
+}
+
+#truck {
+	width:60%;
+	position:relative;
+	transition:all ease 0.5s;
+}
+
+#truck:hover {
+	margin-left:20%;
+}
+
+nav {
+	float:right;
+	background-color:pink;
+	margin-top:30px;
+	padding:10px;
+	position:relative;
+}
+
+#flowers {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul {
+	text-align:center;
+	padding-left:0px;
+}
+
+li {
+	display:block;
+}
+
+ul a {
+	text-decoration:none;
+	color:black;
+}
+
+#desc {
+	background-color:blue;
+	padding: 10px;
+	position:relative;
+	display:block;
+}
