@@ -12,6 +12,13 @@ body {
 	margin:0px 5% 0px 5%;
 }
 
+header {
+	width:100%;
+	text-align:center;
+	font-size:36px;
+	background-color:white;
+}
+
 #truck {
 	width:60%;
 	position:relative;
@@ -56,3 +63,13 @@ ul a {
 	position:relative;
 	display:block;
 }
+
+.info {
+	width:60%;
+	position:relative;
+	background-color:white;
+	padding:10px;
+	text-align:left;
+}
+
+#menu {
