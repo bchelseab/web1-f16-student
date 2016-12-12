@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-@media (min-width: 1px) {
+@media (min-width: 1px) and (max-width:767px){
 	.box {
 		width:100%;
+		margin-top:5%;
 	}
 	
 	#truck {
@@ -18,12 +19,24 @@
 		width:43%;
 		margin-right:2%;
 		margin-top:0px;
+	}
+	
+	.info {
+		width:43%;
+		padding:2%;
+		margin-right:2%;
+		margin-top:0px;
+	}
+	
+	header {
+		margin-left:auto;
+		margin-right:auto;
+	}
 }
-
 @media (min-width: 768px) {
 	.box {
 		width:90%;
-		margin:5%;
+		margin:80px 5% 0px 5%;
 	}
 	
 	#truck {
@@ -38,6 +51,16 @@
 	#desc {
 		width:100%;
 		margin-top: 5%;
+	}
+	
+	header {
+		position:absolute;
+		margin-left:5%;
+	}
+	.info {
+		position:absolute;
+		width:60%;
+		padding:10px;
 	}
 }
 
@@ -54,13 +77,14 @@ box {
 }
 
 header {
-	width:90%;
-	margin: 0px 5% 0px 5%;
+	background-color:white;
 	text-align:center;
 	font-size:36px;
-	background-color:#fcfbc8;
 	font-family: 'Chelsea Market', cursive;
 	color: #0599d3;
+	top:0;
+	padding:5px;
+	border:solid #fcfbc8;
 }
 
 
@@ -129,25 +153,22 @@ ul a:hover {
 }
 
 .info {
-	width:60%;
-	position:absolute;
 	background-color:white;
-	padding:10px;
 	text-align:left;
 	border:solid #fcfbc8;
 }
 
-#menu h2 {
+.info h2 {
 	font-family: 'Chelsea Market', cursive;
 	font-weight:medium;
 	color: #0599d3
 }
 
-#menu dl {
+.info dl {
 	font-family: 'Nunito Sans', sans-serif;
 }
 
-#menu dd {
+.info dd {
 	font-size:12px;
 }
 	
