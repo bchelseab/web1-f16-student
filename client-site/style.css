@@ -1,5 +1,46 @@
 @charset "UTF-8";
 
+@media (min-width: 1px) {
+	.box {
+		width:100%;
+	}
+	
+	#truck {
+		width:100%;
+	}
+	
+	nav {
+		width:46%;
+		padding:2%;
+	}
+	
+	#desc {
+		width:43%;
+		margin-right:2%;
+		margin-top:0px;
+}
+
+@media (min-width: 768px) {
+	.box {
+		width:90%;
+		margin:5%;
+	}
+	
+	#truck {
+		width:60%;
+	}
+	
+	nav {
+		width:15%;
+		padding:1%;
+	}
+	
+	#desc {
+		width:100%;
+		margin-top: 5%;
+	}
+}
+
 body {
 	background-image:url(union-city.jpg);
 	background-repeat:no-repeat;
@@ -7,20 +48,23 @@ body {
 	background-attachment:fixed;
 }
 
-.box {
-	width:90%;
-	margin:0px 5% 0px 5%;
+box {
+	top:0px;
+	position:absolute;
 }
 
 header {
-	width:100%;
+	width:90%;
+	margin: 0px 5% 0px 5%;
 	text-align:center;
 	font-size:36px;
-	background-color:white;
+	background-color:#fcfbc8;
+	font-family: 'Chelsea Market', cursive;
+	color: #0599d3;
 }
 
+
 #truck {
-	width:60%;
 	position:relative;
 	transition:all ease 0.5s;
 }
@@ -31,16 +75,21 @@ header {
 
 nav {
 	float:right;
-	background-color:pink;
-	margin-top:30px;
-	padding:10px;
-	position:relative;
+	background-color:#83d1f8;
+	border:solid #0599d3;
 }
 
 #flowers {
-	width:100%;
+	width:96%;
 	margin-left:auto;
 	margin-right:auto;
+	background-color:#fcfbc8;
+	padding:2%;
+	transition:all ease 1s;
+}
+
+#flowers:hover {
+	background-color:white;
 }
 
 ul {
@@ -50,26 +99,55 @@ ul {
 
 li {
 	display:block;
+	background-color:#fcfbc8;
+	margin-bottom:4%;
+	padding:2%;
+	transition:all ease 0.5s;
+}
+
+li:hover {
+	background-color:#CAF15D;
 }
 
 ul a {
 	text-decoration:none;
-	color:black;
+	color:#0473e6;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+ul a:hover {
+	color:white;
 }
 
 #desc {
-	background-color:blue;
-	padding: 10px;
-	position:relative;
+	background-color:#0599d3;
+	padding:1%;
 	display:block;
+	font-family: 'Nunito Sans', sans-serif;
+	color:white;
+	border:solid #fcfbc8;
 }
 
 .info {
 	width:60%;
-	position:relative;
+	position:absolute;
 	background-color:white;
 	padding:10px;
 	text-align:left;
+	border:solid #fcfbc8;
 }
 
-#menu {
+#menu h2 {
+	font-family: 'Chelsea Market', cursive;
+	font-weight:medium;
+	color: #0599d3
+}
+
+#menu dl {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+#menu dd {
+	font-size:12px;
+}
+	
