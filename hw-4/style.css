@@ -14,6 +14,12 @@ body {
 	font-family:"Helvetica Neue", Helvetica,  Sans Serif;
 }
 
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Sans Serif;
+    font-weight: bold;
+    text-align: center;
+}
+
 h2 {
 	font-family:"Helvetica Neue", Helvetica, Sans Serif;
 	font-weight: bold;
