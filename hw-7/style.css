@@ -96,6 +96,7 @@ header h2 {
 	margin-right:50px;
 	padding: 15px 40px 15px 40px;
 	background-color:rgba(255,255,255,0.53);
+	float:right;
 }
 
 .summary {
@@ -112,4 +113,5 @@ header h2 {
 	margin-left: 50px;
 	position:absolute;
 	background-color:rgba(255,255,255,0.53);
+	float:left;
 }
